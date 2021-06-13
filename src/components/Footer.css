@@ -1,0 +1,37 @@
+.site-info {
+    background-color: #C4C4C4;
+    width: 100%;
+    height: 27%;
+    padding-top: 2%;
+}
+  
+.p-top {
+    border-top: 3px solid #005741;
+    font-family: 'Sarala';
+    font-weight: bold;
+    color: #005741;
+    padding-top: 0.5%;
+    width: 45%;
+    margin: 0 auto;
+}
+  
+.site-info p {
+    text-align: center;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: 'Sarala';
+    font-weight: bold;
+    color: #005741;
+}
+  
+.site-info a {
+    text-align: center;
+    font-family: 'Sarala';
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+  
+footer {
+    margin: 0 auto;
+    text-align: center;
+}

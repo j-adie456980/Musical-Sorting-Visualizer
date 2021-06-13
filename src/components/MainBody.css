@@ -1,0 +1,23 @@
+.main-content {
+    height: 75vh;
+    width: 100%;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+}
+
+.element-positioning-block { /* element-positioning-block builds heights of follow up blocks starting from it's bottom edge*/
+    height: 75vh;
+    display: inline-block;
+}
+
+.element {
+    background-color: #C4C4C4;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    vertical-align: bottom; /*blocks stay aligned with bottom edge*/
+}

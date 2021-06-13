@@ -1,0 +1,89 @@
+.top-nav {
+    overflow: hidden;
+    background-color: #016F54;
+    font-family: 'Sarala';
+}
+  
+.top-nav h1 {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    padding-left: 15%;
+    padding-right: 10%;
+    text-decoration: none;
+    font-size: 36px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    letter-spacing: 1px;
+}
+  
+.top-nav .dropdown {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0px;
+    display: inline-block;
+    height: fit-content;
+}
+  
+.top-nav .spacing {
+    float: left;
+    width: 5%;
+    height: 60px;
+    display: inline-block;
+}
+  
+.dropbtn-sort, .dropbtn-key, .dropbtn-mode, .dropbtn-accent{
+    color: white;
+    padding: 12px;
+    padding-bottom: 8px;
+    font-size: 130%;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.dropbtn-sort {width: 11vw;}
+.dropbtn-key {width: 9vw;}
+.dropbtn-mode {width: 10vw;}
+.dropbtn-accent {width: 3vw;}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #016F54;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content button {
+    color: white;
+    background-color: #016F54;
+    cursor: pointer;
+    border: none;
+    font-family: 'Sarala';
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn-sort ~ .dropdown-content button {width: 11vw;}
+.dropbtn-key ~ .dropdown-content button {width: 9vw;}
+.dropbtn-mode ~ .dropdown-content button {width: 10vw;}
+.dropbtn-accent ~ .dropdown-content button {width: 3vw;}
+  
+.dropdown[enabled = true]:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn-sort, 
+.dropdown:hover .dropbtn-key,
+.dropdown:hover .dropbtn-mode,
+.dropdown:hover .dropbtn-accent {color: #C4C4C4; border-bottom-color: #C4C4C4;}
+
+.dropdown .dropdown-content button:hover{background-color: #d3d3d3; color: rgb(37, 37, 37);}
