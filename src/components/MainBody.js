@@ -57,8 +57,7 @@ export default class MainBody extends React.Component {
     else this.animateSort(0, getAnimations(currentArray, this.state.sort)); 
   }
 
-  animateSort(i, arr){  // animations method inspired by Clement 
-                        // via https://www.youtube.com/watch?v=pFXYym4Wbkc&ab_channel=Cl%C3%A9mentMihailescu
+  animateSort(i, arr){  // animations method inspired by Clement - https://github.com/clementmihailescu/Sorting-Visualizer-Tutorial
     if (i < arr.length){
       const arrayBars = document.getElementsByClassName('element');
       const [barOneIdx, barTwoIdx, valueOne, valueTwo, swap] = arr[i];

@@ -11,7 +11,6 @@ export function getAnimations(array, type){
     case 'Merge Sort':
       return getMergeSort(newArray);
     default:
-      // code block
   }
 }
 
